@@ -28,7 +28,7 @@ public class TC001_GET_Request {
         //Status code validation
         int statusCode = response.getStatusCode();
         System.out.println("Status code is : "+statusCode);
-        Assert.assertEquals(statusCode,200);
+        Assert.assertEquals(statusCode,300);
 
         //Status line verification
         String statusLine = response.getStatusLine();

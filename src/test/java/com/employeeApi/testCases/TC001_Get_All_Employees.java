@@ -58,7 +58,7 @@ public class TC001_Get_All_Employees extends TestBase {
         logger.info("===================Checking Content Type========================");
         String contentType = response.getContentType();
         logger.info("Content Type  : "+contentType);
-        Assert.assertEquals(contentType,"text/html; charset=UTF-8");
+        Assert.assertEquals(contentType,"application/json;charset=utf-8");
     }
 
     @Test
@@ -66,7 +66,7 @@ public class TC001_Get_All_Employees extends TestBase {
         logger.info("===================Checking Sever Type========================");
         String serverType = response.header("Server");
         logger.info("Server Type  : "+serverType);
-        Assert.assertEquals(serverType,"nginx/1.14.1");
+        Assert.assertEquals(serverType,"nginx/1.16.0");
     }
     @Test
     void checkContentEncoding(){
