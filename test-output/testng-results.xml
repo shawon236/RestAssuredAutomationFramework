@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="1734" started-at="2019-12-25T22:36:54 EST" finished-at="2019-12-25T22:36:55 EST">
+    <groups>
+    </groups>
+    <test name="RestAssuredAutomationFramework" duration-ms="1734" started-at="2019-12-25T22:36:54 EST" finished-at="2019-12-25T22:36:55 EST">
+      <class name="Simple_RESTAssured_Test.TC005_GET_ValidatingResponse">
+        <test-method status="PASS" signature="validatingResponseBody()[pri:0, instance:Simple_RESTAssured_Test.TC005_GET_ValidatingResponse@215be6bb]" name="validatingResponseBody" duration-ms="1718" started-at="2019-12-25T22:36:54 EST" finished-at="2019-12-25T22:36:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingResponseBody -->
+      </class> <!-- Simple_RESTAssured_Test.TC005_GET_ValidatingResponse -->
+    </test> <!-- RestAssuredAutomationFramework -->
+  </suite> <!-- Default Suite -->
+</testng-results>

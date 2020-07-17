@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Simple_RESTAssured_Test.TC006_GET_BasicAuthenticationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.312 s - in Simple_RESTAssured_Test.TC006_GET_BasicAuthenticationTest
